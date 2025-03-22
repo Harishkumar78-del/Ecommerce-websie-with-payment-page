@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.header {
+    background: #86ff6b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.cart-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.filter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #72ff6b;
+    color: white;
+    border-radius: 5px;
+}
+
+.filter button:hover {
+    background: #3ce639;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 180px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #333;
+}
+
+.add-to-cart {
+    background: #6bff8e;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background: #39e64d;
+}

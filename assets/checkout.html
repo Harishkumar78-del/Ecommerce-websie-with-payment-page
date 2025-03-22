@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - AK fashion</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Checkout</h2>
+
+     
+        <div class="section">
+            <h3>Delivery Address</h3>
+            <div class="address-box" id="saved-address">
+                <p><strong>Saved Address:</strong></p>
+                <p id="saved-address-text">No saved address found.</p>
+                <button onclick="editAddress()">Edit Address</button>
+            </div>
+            <div id="address-form" style="display: none;">
+                <div class="input-box">
+                    <label for="door">Door No:</label>
+                    <input type="text" id="door">
+                </div>
+                <div class="input-box">
+                    <label for="street">Street:</label>
+                    <input type="text" id="street">
+                </div>
+                <div class="input-box">
+                    <label for="district">District:</label>
+                    <input type="text" id="district">
+                </div>
+                <div class="input-box">
+                    <label for="pincode">Pincode:</label>
+                    <input type="text" id="pincode">
+                </div>
+                <div class="input-box">
+                    <label for="ref">Reference (Optional):</label>
+                    <input type="text" id="ref">
+                </div>
+                <button onclick="saveAddress()">Save Address</button>
+            </div>
+        </div>
+
+  
+        <div class="section">
+            <h3>Estimated Delivery</h3>
+            <p id="delivery-date"></p>
+        </div>
+
+        <div class="section order-summary">
+            <h3>Order Summary</h3>
+            <div id="cart-items"></div>
+            <div class="order-total">
+                Total: <span id="total-price">$0.00</span>
+            </div>
+        </div>
+
+        <button class="proceed-btn" onclick="goToPayment()">Proceed to Payment</button>
+    </div>
+
+    <script src="checkout.js">
+        
+    </script>
+
+</body>
+</html>
