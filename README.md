@@ -40,9 +40,3 @@ This is a fully functional e-commerce website that provides users with a seamles
 ## **Contributing**  
 Feel free to fork the repository and submit pull requests with improvements or new features.  
 
-## **License**  
-This project is licensed under [MIT License](LICENSE).  
-
----
-
-You can modify this based on the exact tech stack and features of your project! Let me know if you need refinements. 🚀
